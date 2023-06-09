@@ -1,0 +1,11 @@
+
+.header__link:hover{
+    font-weight: 600;
+    color:#21232D;
+}
+/* intro */
+.intro__btn:hover{
+    background-color: #fff;
+    color:#8643DC;
+    transform: scale(1.1);
+}
