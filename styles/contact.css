@@ -1,0 +1,127 @@
+.contact {
+    padding-top: 50px;
+    margin: 0 auto;
+    background-color: #F7EFFE;
+}
+
+.contact-container {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__top {
+    margin-bottom: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__top img {
+    width: 50px;
+    height: 2px;
+}
+
+.contact__subtext {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #8643DC;
+}
+
+.contact__part1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__desc {
+    max-width: 512px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    color: #21232D;
+}
+
+.contact__mailtext {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #8643DC;
+    text-decoration: underline;
+}
+
+.contact__form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__form input {
+    max-width: 1110px;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: inline-block;
+    background-color: #F7EFFE;
+    border-bottom: 4px solid #501d8b;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.contact__form img {
+    margin-bottom: 45px;
+}
+
+.contact__part2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__part2 button {
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    border:none;
+    background-color: #8643DC;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    transition:1s;
+}
+.contact__part2__img img{
+    margin-right: 25px;;
+}
+
+@media (max-width:550px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__part1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .contact__part2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}

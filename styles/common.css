@@ -1,5 +1,6 @@
 body{
     font-family: 'Red Hat Display';
+    overflow-x: hidden;
 }
 *{
     margin: 0;

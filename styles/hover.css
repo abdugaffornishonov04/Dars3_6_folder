@@ -3,9 +3,52 @@
     font-weight: 600;
     color:#21232D;
 }
+
 /* intro */
 .intro__btn:hover{
     background-color: #fff;
     color:#8643DC;
     transform: scale(1.1);
+}
+
+/* portfolio */
+.portfolio__middle__box__text:hover{
+    color:#8643DC;
+}
+
+/* clients */
+.clients__card1:hover{
+    transform:rotate(60deg) scale(1.1);
+}
+.clients__card2:hover{
+    transform:rotate(60deg) scale(1.1);
+}
+.clients__card3:hover{
+    transform:rotate(60deg) scale(1.1);
+}
+.clients__card4:hover{
+    transform:rotate(60deg) scale(1.1);
+}
+.clients__card5:hover{
+    transform:rotate(60deg) scale(1.1);
+}
+
+/* blog */
+.blog__card2:hover{
+    transform:rotate(60deg);
+}
+.blog__card3:hover{
+    transform:rotate(60deg);
+}
+
+/* contact */
+.contact__part2 button:hover{
+    background-color: #fff;
+    color:#8643DC;
+    transform: scale(1.1);
+}
+
+/* footer */
+.footer__img img:hover{
+    transform:rotate(60deg) scale(1.4);
 }

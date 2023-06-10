@@ -47,7 +47,7 @@
 }
 
 .services__card {
-    width: 350px;
+    max-width: 350px;
 }
 
 .services__card__wrapper {
@@ -85,5 +85,23 @@
     .services__cards{
         display: flex;
         flex-direction: column;
+    }
+}
+@media (max-width:920px){
+    .services__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services__card__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+@media (max-width:920px){
+    .services__card__title{
+        max-width: 150px;
     }
 }
